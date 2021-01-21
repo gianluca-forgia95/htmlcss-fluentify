@@ -94,8 +94,9 @@ header {
 }
 
 .titolo {
-  padding: 240px;
+  padding: 200px;
   float: left;
+
 }
 h1 {
   color: #fff;
@@ -110,4 +111,23 @@ button {
   background-color: #7CBB02;
   text-transform: uppercase;
   color: #fff;
+}
+
+/* Banner */
+.row::before {
+  content: "";
+  display: block;
+  clear: both;
+}
+.row {
+  height: 160px;
+  text-align: center;
+  background-color:  #D3D3D3;
+
+
+}
+ h2 , p {
+  font-size: 25px;
+  vertical-align: middle;
+
 }
