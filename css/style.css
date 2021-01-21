@@ -3,6 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background-color: red;
+.navigazione {
+  width: 100%;
+  margin: auto;
+  height: 600px;
+  background-color: #0d314d;
+
+}
+#logo {
+  width: 200px;
+  margin-left: 10%;
+
 }
