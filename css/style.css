@@ -7,27 +7,21 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 /* navigazione  */
-.navigazione {
-  width: 100%;
-  margin: auto;
-  height: 600px;
-  background-color: #0C325A;
 
-
-}
 #logo {
   width: 150px;
   margin-left: 5%;
   float: left;
   vertical-align: middle;
-  /* float: left; */
 
+}
+.navigazione {
+position: relative;
 }
 .barra-navigazione {
   text-align: center;
   float: left;
   vertical-align: middle;
-  margin-top: 20px;
   margin-left: 50px;
 }
 
@@ -47,7 +41,6 @@ ul li  {
 nav {
   vertical-align: middle;
   display: inline-block;
-  margin-top: 10px;
   margin-left: 50px;
   margin-bottom: 10px;
 }
@@ -66,6 +59,11 @@ nav {
   background-color: #7CBB02;
 
 }
+.login {
+  position: absolute;
+
+}
+
 .navigazione::after {
   content: "";
   display: block;
@@ -73,21 +71,36 @@ nav {
 }
 /* /navigazione  */
 /* Banner */
+header {
+  background-color: #0C325A;
+  height: 600px;
+  padding-top: 20px;
+  color: white;
+  background-image: url("../img/background-header.png");
+  background-size: 55%;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
 .banner::before {
   content: "";
   display: block;
   clear: both;
 
 }
+.banner {
+  width: 80%;
+  margin: auto;
+}
 
 .titolo {
   padding: 240px;
-  margin-right: 150px;
   float: left;
 }
 h1 {
   color: #fff;
-  font-size: 35px;
+  font-size: 45px;
+  margin-bottom: 20px;
 }
 button {
   text-align: center;
@@ -95,7 +108,6 @@ button {
   height: 40px;
   border-radius: 8px;
   background-color: #7CBB02;
-  margin-top: 20px;
   text-transform: uppercase;
   color: #fff;
 }
